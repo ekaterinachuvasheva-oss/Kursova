@@ -1,0 +1,221 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 50px;
+        border-bottom: none;
+        
+    &__input {
+        display: none;
+    }
+
+    &__menu {
+        display: none;
+        &-mob {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+    }
+
+    .logo {
+        width: 99px;
+     }
+
+    .hero-page {
+        
+        &__title {
+            display: none;
+             &-mob {
+            display: block;
+            font-size: 46px;
+            line-height: 59px;
+            text-align: center;
+            white-space: normal;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }  
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            text-align: center;
+            color: white;
+            
+        }
+        &__link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            border-bottom: none;
+            text-decoration: underline;
+        }
+     }
+
+    .hero-catalog {
+        &__title {
+            &-catalog {
+            display: flex;
+            font-size: 48px;
+            justify-content: center;
+        }
+    }
+    }
+
+    .hero-cart {
+        &__title {
+             display: flex;
+            font-size: 48px;
+            justify-content: center;
+        }
+    }
+
+    .catalog-top {
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        &__sorting {
+            flex-direction: column-reverse;
+        }
+        &_select {
+            font-size: 14px;
+            max-width: 203px;
+        }
+    }
+
+    .cart {
+        display: flex;
+        flex-direction: column;
+        &__Wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &__form {
+            width: 343px;
+        }
+        &__total-price {
+            width: 283px;
+        }
+        &__total-price-result {
+            justify-content: center;
+        }
+        &__item {
+            width: 343px;
+        }
+        &__name-box {
+            display: none;
+        }
+        &__left {
+            &-img {
+                display: none;
+            }
+        } 
+        &_info {
+            max-width: 253px;   
+        }
+        &__content {
+        grid-column: span 4;
+        }
+       
+    }
+
+    .nav {
+        &__btn {
+            width: 164px;
+            font-size: 12px;
+        }
+    }
+
+    .filter-button-wrapper {
+        font-size: 14px;
+        max-width: 164px;
+    }
+
+    .filtering-form {
+        width: 287px;
+        height: 910px;
+        left: 0;
+        &__content-wrapper {
+            flex-wrap: nowrap;
+            position: relative;
+            min-width: 190px;
+        }
+        &__fieldset {
+            gap: 14px;
+        }
+        &__button {
+            position: absolute;
+            right: 55px;
+            bottom: 40px;
+        }
+    }
+
+    .catalog-nav {
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .catalog-top {
+        &__sorting-select {
+        font-size: 14px;
+        max-width: 203px;
+    }
+    }
+
+     .for-box {
+        padding-top: 32px;
+     }
+
+     .product-box {
+        margin-top: 32px;
+        &__title {
+            font-size: 24px;
+            line-height: normal;
+        }
+        
+     }
+
+     .product {
+        width: 343px;
+        &__name {
+            font-size: 18px;
+        }
+        &__price {
+            font-size: 18px;
+        }
+     }
+
+     .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        row-gap: 16px;
+        &__item {
+            height: 375px;
+            width: 343px;
+            font-Size: 28px;
+            max-width: 343px;
+            
+            &_big {
+                height: 244px;
+            }
+        }       
+
+        }
+        .footer {
+            &__content {
+                justify-content: center;
+                row-gap: 69px;
+        }
+        &__info {
+            gap: 100px;
+        }
+        }
+}
+
+
+
